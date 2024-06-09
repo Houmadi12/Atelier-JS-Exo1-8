@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSs -->
+     <link rel="stylesheet" href="css/style.css">
+    <title>Exo8 Atelier</title>
+</head>
+<body>
+
+    <video id="background-video" autoplay loop muted>
+        <source src="img/istockphoto-1411991048-640_adpp_is.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1></h1>
+        <form action="" id="form">
+            <fieldset>
+                <legend>Teste</legend>
+                <div class="group">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="Saisie ton age" required>
+                </div>
+                <div class="group">
+                    <label for="nbrJrs">Nombre de jours à vivre</label>
+                    <input type="number" name="nbrJrs" id="nbrJrs" placeholder="Saisie ton age" required>
+                </div>
+                <div class="group">
+                    <button type="submit">Test</button>
+                </div>
+                <div>
+                    <fieldset id="fiel1">
+                        <h4>Réponse</h4>
+                        <p class="repons" id="respons"></p>
+                    </fieldset>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+</html>

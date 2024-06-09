@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   padding: 20px; 
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: linear-gradient(transparent,#000), url("../img/nombre.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover; */
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    width: 37%;
+    height: 70vh;
+    background: -webkit-linear-gradient(90deg, #11ecf5,#dabea7,#88a1a9);
+    background: linear-gradient(90deg, #11ecf5,#dabea7,#88a1a9);                                        
+}
+
+.container h1 {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.container fieldset {
+    margin: 20px 0;
+    height: 30vh;
+}
+
+fieldset legend{
+    background-color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+fieldset .group {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group label{
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+.group input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.group button {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#fiel1 {
+  padding: 20px;
+  height: 15vh;
+}
+
+#fiel1 h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#fiel1 .repons {
+    background-color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
